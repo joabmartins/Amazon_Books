@@ -1,2 +1,0 @@
-{"timestamp":"2025-05-13T20:05:44.888535","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py","logger":"airflow.models.dagbag.DagBag"}
-{"timestamp":"2025-05-13T20:06:15.107195","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py","logger":"airflow.models.dagbag.DagBag"}
