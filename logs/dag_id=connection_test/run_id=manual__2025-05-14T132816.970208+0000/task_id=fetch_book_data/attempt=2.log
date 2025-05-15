@@ -1,0 +1,20 @@
+{"timestamp":"2025-05-14T13:33:20.530499","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-14T13:33:20.531022","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/teste.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-14T13:33:20.656124Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:20.657116Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:20.657983Z","level":"info","event":"Current task name:fetch_book_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:20.658553Z","level":"info","event":"Dag name:connection_test","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:21.619795Z","level":"info","event":"200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:21.620223Z","level":"info","event":"<Response [200]>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.570744Z","level":"info","event":"Livro: Engenharia De Dados E Intelig√™ncia Artificial Para In","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.571374Z","level":"info","event":"Banner Engineering, Antena Dx80er2m-h Ethernet Data Radio","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.572001Z","level":"info","event":"Livro: Dados Futuros E Engenharia De Seguran√ßa: Terceira Con","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.574230Z","level":"info","event":"Livro: Driving Eureka! : Solu√ß√£o De Problemas Com Base Em Da","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.574983Z","level":"info","event":"Livros: Engenharia Da Computa√ß√£o, Armazenamento De Dados, Re","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.575525Z","level":"info","event":"Fundamentos Da Engenharia De Dados: Planeje E Crie Dados Robustos","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.576173Z","level":"info","event":"Livro Compressed Air Data / Handbook Of Peneumatic Engineering Practice - F. W. Oneil / Edited By [1939]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.576590Z","level":"info","event":"Compressed Air Data Handbook Of Pneumatic Engineering Practi","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.576982Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.577254Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.577615Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_book_data>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T13:33:23.571387","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

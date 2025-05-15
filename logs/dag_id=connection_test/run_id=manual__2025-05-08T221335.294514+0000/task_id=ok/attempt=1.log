@@ -1,0 +1,11 @@
+{"timestamp":"2025-05-08T22:13:39.336121","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-08T22:13:39.336896","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/teste.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-08T22:13:39.394090Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T22:13:39.394544Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T22:13:39.395078Z","level":"info","event":"Current task name:ok","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T22:13:39.395505Z","level":"info","event":"Dag name:connection_test","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T22:13:39.395941Z","level":"info","event":"Ok","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T22:13:39.396529Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T22:13:39.397097Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T22:13:39.397638Z","level":"info","event":"Task operator:<Task(PythonOperator): ok>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T22:13:39.354943","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

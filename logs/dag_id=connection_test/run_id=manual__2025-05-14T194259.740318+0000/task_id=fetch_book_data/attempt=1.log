@@ -1,0 +1,26 @@
+{"timestamp":"2025-05-14T19:43:02.319894","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-14T19:43:02.322022","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/teste.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-14T19:43:02.609415Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:02.610055Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:02.610925Z","level":"info","event":"Current task name:fetch_book_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:02.611484Z","level":"info","event":"Dag name:connection_test","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:02.612034Z","level":"info","event":"números livros","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:02.612990Z","level":"info","event":"100","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:03.988746Z","level":"info","event":"resposta...............","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:03.989196Z","level":"info","event":"200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:03.989512Z","level":"info","event":"<Response [200]>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:03.989806Z","level":"info","event":".......................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:05.747234Z","level":"info","event":"resposta...............","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:05.747953Z","level":"info","event":"200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:05.748393Z","level":"info","event":"<Response [200]>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:05.748810Z","level":"info","event":".......................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:09.770312Z","level":"info","event":"resposta...............","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:09.770870Z","level":"info","event":"200","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:09.771326Z","level":"info","event":"<Response [200]>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:09.771809Z","level":"info","event":".......................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:13.175157Z","level":"info","event":"tamanho array","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:13.175905Z","level":"info","event":"108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:13.187038","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-05-14T19:43:13.241017Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:13.241525Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T19:43:13.241965Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_book_data>","chan":"stdout","logger":"task"}

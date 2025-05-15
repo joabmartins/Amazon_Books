@@ -1,0 +1,15 @@
+{"timestamp":"2025-05-08T20:24:03.825128","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-08T20:24:03.825639","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/app.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-08T20:24:03.966585Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T20:24:03.966999Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T20:24:03.967530Z","level":"info","event":"Current task name:create_table","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T20:24:03.968003Z","level":"info","event":"Dag name:fetch_and_store_amazon_books","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T20:24:03.944455","level":"info","event":"Executing: \n    CREATE TABLE IF NOT EXISTS books (\n        id SERIAL PRIMARY KEY,\n        title TEXT NOT NULL,\n        authors TEXT,\n        price TEXT,\n        rating TEXT\n    );\n    ","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2025-05-08T20:24:03.945903","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-08T20:24:03.966972","level":"info","event":"Connection Retrieved 'books_connection'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-08T20:24:03.968007","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-08T20:24:03.977342","level":"info","event":"Connection Retrieved 'books_connection'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-08T20:24:03.981204","level":"info","event":"Running statement: \n    CREATE TABLE IF NOT EXISTS books (\n        id SERIAL PRIMARY KEY,\n        title TEXT NOT NULL,\n        authors TEXT,\n        price TEXT,\n        rating TEXT\n    );\n    , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-05-08T20:24:03.998802Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T20:24:03.999533Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-08T20:24:04.000174Z","level":"info","event":"Task operator:<Task(SQLExecuteQueryOperator): create_table>","chan":"stdout","logger":"task"}

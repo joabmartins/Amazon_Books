@@ -1,0 +1,136 @@
+{"timestamp":"2025-05-14T12:51:17.968425","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-14T12:51:17.969720","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/app.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-14T12:51:18.213388Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:51:18.214002Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:51:18.214946Z","level":"info","event":"Current task name:fetch_book_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:51:18.215439Z","level":"info","event":"Dag name:fetch_and_store_amazon_books","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.518400Z","level":"info","event":"status_code...............................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.519085Z","level":"info","event":"503","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.519614Z","level":"info","event":"text...............................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.520310Z","level":"info","event":"<!--","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.521112Z","level":"info","event":"        To discuss automated access to Amazon data please contact api-services-support@amazon.com.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.522098Z","level":"info","event":"        For information about migrating to our APIs refer to our Marketplace APIs at https://developer.amazonservices.com/ref=rm_5_sv, or our Product Advertising API at https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html/ref=rm_5_ac for advertising use cases.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.523021Z","level":"info","event":"-->","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.524224Z","level":"info","event":"<!doctype html>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.524900Z","level":"info","event":"<html>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.525563Z","level":"info","event":"<head>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.526139Z","level":"info","event":"  <meta charset=\"utf-8\">","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.526678Z","level":"info","event":"  <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.527183Z","level":"info","event":"  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.527686Z","level":"info","event":"  <title>Sorry! Something went wrong!</title>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.528164Z","level":"info","event":"  <style>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.528630Z","level":"info","event":"  html, body {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.529095Z","level":"info","event":"    padding: 0;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.529519Z","level":"info","event":"    margin: 0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.529951Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.530398Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.530689Z","level":"info","event":"  img {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.530995Z","level":"info","event":"    border: 0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.531566Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.532153Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.532735Z","level":"info","event":"  #a {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.533304Z","level":"info","event":"    background: #232f3e;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.533852Z","level":"info","event":"    padding: 11px 11px 11px 192px","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.534401Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.534972Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.535518Z","level":"info","event":"  #b {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.536012Z","level":"info","event":"    position: absolute;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.536440Z","level":"info","event":"    left: 22px;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.537029Z","level":"info","event":"    top: 12px","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.537951Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.538901Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.539823Z","level":"info","event":"  #c {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.540787Z","level":"info","event":"    position: relative;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.546460Z","level":"info","event":"    max-width: 800px;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.547807Z","level":"info","event":"    padding: 0 40px 0 0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.553145Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.555772Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.557794Z","level":"info","event":"  #e, #f {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.558785Z","level":"info","event":"    height: 35px;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.559480Z","level":"info","event":"    border: 0;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.560131Z","level":"info","event":"    font-size: 1em","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.560903Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.561603Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.562187Z","level":"info","event":"  #e {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.562853Z","level":"info","event":"    width: 100%;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.563331Z","level":"info","event":"    margin: 0;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.563859Z","level":"info","event":"    padding: 0 10px;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.564471Z","level":"info","event":"    border-radius: 4px 0 0 4px","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.565145Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.566292Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.567098Z","level":"info","event":"  #f {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.567627Z","level":"info","event":"    cursor: pointer;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.567961Z","level":"info","event":"    background: #febd69;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.568176Z","level":"info","event":"    font-weight: bold;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.568356Z","level":"info","event":"    border-radius: 0 4px 4px 0;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.568621Z","level":"info","event":"    -webkit-appearance: none;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.569006Z","level":"info","event":"    position: absolute;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.569348Z","level":"info","event":"    top: 0;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.569612Z","level":"info","event":"    right: 0;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.569846Z","level":"info","event":"    padding: 0 12px","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.570279Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.570870Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.571590Z","level":"info","event":"  @media (max-width: 500px) {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.572343Z","level":"info","event":"    #a {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.572981Z","level":"info","event":"      padding: 55px 10px 10px","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.573628Z","level":"info","event":"    }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.574266Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.574620Z","level":"info","event":"    #b {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.574848Z","level":"info","event":"      left: 6px","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.575075Z","level":"info","event":"    }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.575382Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.575876Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.576189Z","level":"info","event":"  #g {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.576389Z","level":"info","event":"    text-align: center;","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.576581Z","level":"info","event":"    margin: 30px 0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.576772Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.577037Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.577399Z","level":"info","event":"  #g img {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.577787Z","level":"info","event":"    max-width: 90%","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.578093Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.578468Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.578957Z","level":"info","event":"  #d {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.579516Z","level":"info","event":"    display: none","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.580035Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.580506Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.580955Z","level":"info","event":"  #d[src] {","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.581425Z","level":"info","event":"    display: inline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.581863Z","level":"info","event":"  }","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.582190Z","level":"info","event":"  </style>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.582427Z","level":"info","event":"</head>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.582609Z","level":"info","event":"<body>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.582788Z","level":"info","event":"    <a href=\"/ref=cs_503_logo\"><img id=\"b\" src=\"https://images-na.ssl-images-amazon.com/images/G/01/error/logo._TTD_.png\" alt=\"Amazon.com\"></a>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.582979Z","level":"info","event":"    <form id=\"a\" accept-charset=\"utf-8\" action=\"/s\" method=\"GET\" role=\"search\">","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.583246Z","level":"info","event":"        <div id=\"c\">","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.583543Z","level":"info","event":"            <input id=\"e\" name=\"field-keywords\" placeholder=\"Search\">","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.583869Z","level":"info","event":"            <input name=\"ref\" type=\"hidden\" value=\"cs_503_search\">","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.584216Z","level":"info","event":"            <input id=\"f\" type=\"submit\" value=\"Go\">","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.584427Z","level":"info","event":"        </div>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.584656Z","level":"info","event":"    </form>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.584885Z","level":"info","event":"<div id=\"g\">","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.585197Z","level":"info","event":"  <div><a href=\"/ref=cs_503_link\"><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/error/500_503.png\"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.585598Z","level":"info","event":"                                        alt=\"Sorry! Something went wrong on our end. Please go back and try again or go to Amazon's home page.\"></a>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.585993Z","level":"info","event":"  </div>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.586326Z","level":"info","event":"  <a href=\"/dogsofamazon/ref=cs_503_d\" target=\"_blank\" rel=\"noopener noreferrer\"><img id=\"d\" alt=\"Dogs of Amazon\"></a>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.586527Z","level":"info","event":"  <script>document.getElementById(\"d\").src = \"https://images-na.ssl-images-amazon.com/images/G/01/error/\" + (Math.floor(Math.random() * 43) + 1) + \"._TTD_.jpg\";</script>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.586873Z","level":"info","event":"</div>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.587484Z","level":"info","event":"</body>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.588172Z","level":"info","event":"</html>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.588710Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.589236Z","level":"info","event":"content...............................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.590043Z","level":"info","event":"b'<!--\\n        To discuss automated access to Amazon data please contact api-services-support@amazon.com.\\n        For information about migrating to our APIs refer to our Marketplace APIs at https://developer.amazonservices.com/ref=rm_5_sv, or our Product Advertising API at https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html/ref=rm_5_ac for advertising use cases.\\n-->\\n<!doctype html>\\n<html>\\n<head>\\n  <meta charset=\"utf-8\">\\n  <meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\">\\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\\n  <title>Sorry! Something went wrong!</title>\\n  <style>\\n  html, body {\\n    padding: 0;\\n    margin: 0\\n  }\\n\\n  img {\\n    border: 0\\n  }\\n\\n  #a {\\n    background: #232f3e;\\n    padding: 11px 11px 11px 192px\\n  }\\n\\n  #b {\\n    position: absolute;\\n    left: 22px;\\n    top: 12px\\n  }\\n\\n  #c {\\n    position: relative;\\n    max-width: 800px;\\n    padding: 0 40px 0 0\\n  }\\n\\n  #e, #f {\\n    height: 35px;\\n    border: 0;\\n    font-size: 1em\\n  }\\n\\n  #e {\\n    width: 100%;\\n    margin: 0;\\n    padding: 0 10px;\\n    border-radius: 4px 0 0 4px\\n  }\\n\\n  #f {\\n    cursor: pointer;\\n    background: #febd69;\\n    font-weight: bold;\\n    border-radius: 0 4px 4px 0;\\n    -webkit-appearance: none;\\n    position: absolute;\\n    top: 0;\\n    right: 0;\\n    padding: 0 12px\\n  }\\n\\n  @media (max-width: 500px) {\\n    #a {\\n      padding: 55px 10px 10px\\n    }\\n\\n    #b {\\n      left: 6px\\n    }\\n  }\\n\\n  #g {\\n    text-align: center;\\n    margin: 30px 0\\n  }\\n\\n  #g img {\\n    max-width: 90%\\n  }\\n\\n  #d {\\n    display: none\\n  }\\n\\n  #d[src] {\\n    display: inline\\n  }\\n  </style>\\n</head>\\n<body>\\n    <a href=\"/ref=cs_503_logo\"><img id=\"b\" src=\"https://images-na.ssl-images-amazon.com/images/G/01/error/logo._TTD_.png\" alt=\"Amazon.com\"></a>\\n    <form id=\"a\" accept-charset=\"utf-8\" action=\"/s\" method=\"GET\" role=\"search\">\\n        <div id=\"c\">\\n            <input id=\"e\" name=\"field-keywords\" placeholder=\"Search\">\\n            <input name=\"ref\" type=\"hidden\" value=\"cs_503_search\">\\n            <input id=\"f\" type=\"submit\" value=\"Go\">\\n        </div>\\n    </form>\\n<div id=\"g\">\\n  <div><a href=\"/ref=cs_503_link\"><img src=\"https://images-na.ssl-images-amazon.com/images/G/01/error/500_503.png\"\\n                                        alt=\"Sorry! Something went wrong on our end. Please go back and try again or go to Amazon\\'s home page.\"></a>\\n  </div>\\n  <a href=\"/dogsofamazon/ref=cs_503_d\" target=\"_blank\" rel=\"noopener noreferrer\"><img id=\"d\" alt=\"Dogs of Amazon\"></a>\\n  <script>document.getElementById(\"d\").src = \"https://images-na.ssl-images-amazon.com/images/G/01/error/\" + (Math.floor(Math.random() * 43) + 1) + \"._TTD_.jpg\";</script>\\n</div>\\n</body>\\n</html>\\n'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.590632Z","level":"info","event":"url...............................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.590972Z","level":"info","event":"https://www.amazon.com/s?crid=23WOAREGTG8SH&i=aps&k=data%20engineering%20books&ref=nb_sb_noss_1&sprefix=data%20engineering%20books%2Caps%2C286&url=search-alias%3Daps&page=253","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.591319Z","level":"info","event":"json...............................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.591672Z","level":"info","event":"<bound method Response.json of <Response [503]>>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.592039Z","level":"info","event":"headers...............................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.592332Z","level":"info","event":"{'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'Server', 'Date': 'Wed, 14 May 2025 12:55:50 GMT', 'x-amz-rid': 'GS13YCSQZH4BV8JNZW54', 'Vary': 'Content-Type,Accept-Encoding,User-Agent', 'Last-Modified': 'Fri, 09 May 2025 17:36:30 GMT', 'ETag': '\"a6f-634b768130380-gzip\"', 'Accept-Ranges': 'bytes', 'Content-Encoding': 'gzip', 'Strict-Transport-Security': 'max-age=47474747; includeSubDomains; preload', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 f5002d75963a7ac4e40089e827005b00.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'GRU3-P4', 'Alt-Svc': 'h3=\":443\"; ma=86400', 'X-Amz-Cf-Id': '2cRB7tzU_qvihpQB0G9X3B39t6jLWXxtJCoyiLAvdyeJwzhhblrxLg=='}","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.592576Z","level":"info","event":"connection...............................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.592893Z","level":"info","event":"<requests.adapters.HTTPAdapter object at 0x7fe75ec95370>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.593150Z","level":"info","event":"encoding...............................","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.593348Z","level":"info","event":"ISO-8859-1","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.593596Z","level":"info","event":"Failed to retrieve the page","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.594031Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.594496Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.594912Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_book_data>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-14T12:55:50.531227","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
